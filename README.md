@@ -15,7 +15,7 @@ Ceci est une application de transfert de fichiers qui illustre d'un **serveur FT
         Après un crash et qu'on relance le téléchargement celui ci continu là ou il s'est arrêté
       </li>
       <li><h5>Serveur FTP répartiteur de charge (Maitre-Esclave)</h5>
-          <img height="20" weight="20" src="https://github.com/bahmine/FTP/blob/main/repartition.png">
+          <img height="25" weight="25" src="https://github.com/bahmine/FTP/blob/main/repartition.png">
       </li>
     </ul>
   </li>
