@@ -43,7 +43,27 @@ Ceci est une application de transfert de fichiers qui illustre d'un **serveur FT
           </ol>
         </li>
         <li><h5>Plusieurs clients</h5>
+            <ol>
+            <li><h6>Serveur</h6>
+              <ol>
+                <li>make clean</li>
+                <li>make</li>
+                <li>./slave N°PortSlave1 autre que N°2121</li>
+                <li>./slave N°PortSlave2 autre que N°2121 et N°PortSalve1</li>
+                <li>./maitre N°PortSlave1 N°PortSlave2</li>
+              </ol>
+            </li>
+            <li><h6>Client</h6>
+              <ol>
+                <li>make clean</li>
+                <li>make</li>
+                <li>./client hostServeur hostClient1 N°PortClient2 autre que 2121</li>
+                <li>./client hostServeur hostClient2 N°PortClient2 autre que 2121</li>
+              </ol>
+            </li>
+          </ol>
         </li>
       </ul>
   </li>
 </ol>
+## NB : Cette application a été entièrement faite sous linux avec le langage C et relire le document memo.pdf pour mieux comprendre
