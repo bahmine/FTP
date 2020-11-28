@@ -12,7 +12,9 @@ Ceci est une application de transfert de fichiers qui illustre d'un **serveur FT
         Le transfert se fait par des blocs de 9 octets afin d'éviter la surcharge du serveur
       </li>
       <li><h5>Gestion simple des pannes côtés clients</h5>
-        
+        Après un crash et qu'on relance le téléchargement celui ci continu là ou il s'est arrêté
+      </li>
+      <li><h5>Serveur FTP répartiteur de charge (**Maitre-Esclave**)</h5>
       </li>
     </ul>
   </li>
