@@ -65,5 +65,5 @@ Ceci est une application de transfert de fichiers qui illustre d'un **serveur FT
         </li>
       </ul>
   </li>
-</ol>
-**NB : Cette application a été entièrement faite sous linux avec le langage C et relire le document memo.pdf pour mieux comprendre
+</ol><br>
+<b>NB : Cette application a été entièrement faite sous linux avec le langage C et relire le document memo.pdf pour mieux comprendre</b>
