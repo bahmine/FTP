@@ -22,5 +22,13 @@ Ceci est une application de transfert de fichiers qui illustre d'un **serveur FT
     </ul>
   </li>
   <li><h3>Test et utilisation</h3>
+      <ul>
+        <li><h5>utilisation Avec un seul client</h5>
+          <ol>
+            <li><h6>Serveur</h6></li>
+            <li><h6>Client</h6></li>
+          </ol>
+        </li>
+      </ul>
   </li>
 </ol>
