@@ -4,11 +4,17 @@ Ceci est une application de transfert de fichiers qui illustre d'un **serveur FT
 
 <ol>
   <li><h3>Principales réalisations</h3>
-    <ol>
+    <ul>
       <li><h5>FTP concurrent :</h5>
-          NPROC processus attendent la connexion des clients.Le client client connecté sollicite un fichier et le serveur lui renvoie le fichier et des statistiques sont transferts sont affichées.
+          NPROC processus attendent la connexion des clients.Le client client connecté sollicite un fichier et le serveur lui renvoie le fichier et des statistiques du transfert sont affichées.
       </li>
-    </ol>
+      <li><h5>Découpage du Fichier</h5>
+        Le transfert se fait par des blocs de 9 octets afin d'éviter la surcharge du serveur
+      </li>
+      <li><h5>Gestion simple des pannes côtés clients</h5>
+        
+      </li>
+    </ul>
   </li>
   <li><h3>Test et utilisation</h3>
   </li>
