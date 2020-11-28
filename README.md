@@ -17,6 +17,8 @@ Ceci est une application de transfert de fichiers qui illustre d'un **serveur FT
       <li><h5>Serveur FTP répartiteur de charge (Maitre-Esclave)</h5>
           <img  weight="20" heigth="20" src="https://github.com/bahmine/FTP/blob/main/repartition.png">
       </li>
+      <li> Les commandes <b>ls,pwd,cd,mkdir,rm,put</b> ont été implémentées dans le fichier echo.C en C via les primivites de la bibliothèque <b>dirent.h</b>
+      </li>
     </ul>
   </li>
   <li><h3>Test et utilisation</h3>
