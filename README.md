@@ -25,9 +25,24 @@ Ceci est une application de transfert de fichiers qui illustre d'un **serveur FT
       <ul>
         <li><h5>utilisation Avec un seul client</h5>
           <ol>
-            <li><h6>Serveur</h6></li>
-            <li><h6>Client</h6></li>
+            <li><h6>Serveur</h6>
+              <ol>
+                <li>make clean</li>
+                <li>make</li>
+                <li>./slave N°PortSlave autre que N°2121</li>
+                <li>./maitre N°PortSlave </li>
+              </ol>
+            </li>
+            <li><h6>Client</h6>
+              <ol>
+                <li>make clean</li>
+                <li>make</li>
+                <li>./client hostSeveur hostClient N°PortClient</li>
+              </ol>
+            </li>
           </ol>
+        </li>
+        <li><h5>Plusieurs clients</h5>
         </li>
       </ul>
   </li>
